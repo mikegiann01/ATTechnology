@@ -1,0 +1,91 @@
+/* RESET + BASE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* NAVIGATION */
+nav {
+  background-color: #fff;
+  padding: 1rem 2rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* SECTIONS */
+section {
+  margin-bottom: 4rem;
+}
+
+section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #212529;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+section h3 {
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+  color: #37474f;
+}
+
+p, ul {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+ul {
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f1f1f1;
+  font-size: 0.9rem;
+  color: #666;
+}

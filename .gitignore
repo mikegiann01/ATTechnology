@@ -1,0 +1,35 @@
+# Python virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Bytecode and Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor config files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables (if used later)
+.env
+
+# Python egg and package info
+*.egg-info/
+dist/
+build/
+
+# Logs and temp
+*.log
+*.tmp
+
+# Static cache (optional)
+app/static/cache/
