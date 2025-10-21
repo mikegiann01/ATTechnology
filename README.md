@@ -94,9 +94,8 @@ http://127.0.0.1:8000
 
 ## 📸 Preview
 
-![Screenshot](https://your-screenshot-url.com/screenshot.png)
+![ATTechnology Preview](screenshot.png)
 
-> Replace the link above with your screenshot URL or upload one to GitHub.
 
 ---
 
